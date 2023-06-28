@@ -2,7 +2,7 @@
 
 This is a pytorch implementation of the paper: [Multiple Speech Mode Transformation using Adversarial Network](https://ieeexplore.ieee.org/document/9986477).
 
-**The converted voice examples are in *samples* **
+**The converted voice examples are in *samples***
 
 
 
