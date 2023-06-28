@@ -25,7 +25,7 @@ This is a pytorch implementation of the paper: [Multiple Speech Mode Transformat
 The dataset is present [here](https://drive.google.com/drive/folders/1DI22XoZNRS4p4ek2r-Jv1Lep8byko2uy?usp=share_link).
 
 1. **training set:** In the paper, **three modes** were selected from `the dataset`. So we created the corresponding folder(eg. conv(Conversation), lec (Lecture), read (Read/Extempore) ) to `./data/speakers`, each containing 160 audio samples.
-2. **testing set** In the paper,  **three modes** were selected from `the dataset`. So we created the corresponding folder(eg. conv(Conversation), lec (Lecture), read (Read/Extempore) ) to `./data/speakers_test`.
+2. **testing set:** In the paper,  **three modes** were selected from `the dataset`. So we created the corresponding folder(eg. conv(Conversation), lec (Lecture), read (Read/Extempore) ) to `./data/speakers_test`.
 
 The data directory now looks like this:
 
@@ -72,7 +72,9 @@ data
 ```
 python main.py
 
-Or To continue from a saved checkpoint use:
+or
+
+To continue from a saved checkpoint use:
 python main.py --resume_iters 150000
 ```
 
