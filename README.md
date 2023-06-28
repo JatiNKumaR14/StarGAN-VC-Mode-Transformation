@@ -1,4 +1,4 @@
-## [StarGAN-VC]
+## [StarGAN-VC-Mode-Transformation]
 
 This is a pytorch implementation of the paper: [Multiple Speech Mode Transformation using Adversarial Network](https://ieeexplore.ieee.org/document/9986477).
 
