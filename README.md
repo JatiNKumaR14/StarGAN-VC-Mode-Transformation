@@ -22,7 +22,8 @@ This is a pytorch implementation of the paper: [Multiple Speech Mode Transformat
 ### Download dataset
 
 
-The dataset is present [here](https://drive.google.com/drive/folders/1DI22XoZNRS4p4ek2r-Jv1Lep8byko2uy?usp=share_link).
+The dataset is present [here](https://drive.google.com/drive/folders/1DI22XoZNRS4p4ek2r-Jv1Lep8byko2uy?usp=share_link). 
+The dataset is in Bengali language and it contains 160 utterences for each mode in the training set, while 30 in the test set. Each wav file is about 5 seconds and it contains non parallel utterances.
 
 1. **training set:** In the paper, **three modes** were selected from `the dataset`. So we created the corresponding folder(eg. conv(Conversation), lec (Lecture), read (Read/Extempore) ) to `./data/speakers`, each containing 160 audio samples.
 2. **testing set:** In the paper,  **three modes** were selected from `the dataset`. So we created the corresponding folder(eg. conv(Conversation), lec (Lecture), read (Read/Extempore) ) to `./data/speakers_test`.
@@ -86,6 +87,9 @@ python main.py --resume_iters 150000
 ```
 python main.py --mode test --test_iters 150000 --src_speaker conv --trg_speaker "['conv','read']"
 ```
+
+Note: 
+ * Consider looking at the [notebook](StarGan_VC_Pytorch.ipynb) to setup and proceed with the training and testing purpose.
 
 
 ## [Network structure]
